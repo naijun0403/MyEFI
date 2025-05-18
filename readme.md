@@ -11,6 +11,9 @@ Put the values in `secret-properties.json` and run
 python build.py
 ```
 
+## OpenCore Version
+OpenCore 1.0.4
+
 ## My Hardware Spec
 ```
 Motherboard: GIGABYTE Z790 AORUS ELITE X WIFI7
