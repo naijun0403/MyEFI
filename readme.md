@@ -14,6 +14,9 @@ python build.py
 ## OpenCore Version
 OpenCore 1.0.4
 
+## Currently Support macOS Version
+macOS Sequoia 15.5 x86_64
+
 ## My Hardware Spec
 ```
 Motherboard: GIGABYTE Z790 AORUS ELITE X WIFI7
