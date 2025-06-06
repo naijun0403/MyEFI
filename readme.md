@@ -1,5 +1,9 @@
 # MyEFI
-This is the Hackintosh EFI I use.
+[![MacOS version](https://img.shields.io/badge/Sequoia-15.5-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.4-informational.svg)](https://github.com/acidanthera/OpenCorePkg)
+
+## Disclaimer
+Use at your own risk. I'm not responsible if your equipment explodes.
 
 ## How to build
 The SMBIOS model name is specified, but things like the detailed serial number are not committed with it.
