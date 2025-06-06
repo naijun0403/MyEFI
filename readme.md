@@ -2,6 +2,8 @@
 [![MacOS version](https://img.shields.io/badge/Sequoia-15.5-informational.svg)](https://www.apple.com/macos)
 [![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.4-informational.svg)](https://github.com/acidanthera/OpenCorePkg)
 
+![image](./imgs/neofetch.png)
+
 ## Disclaimer
 Use at your own risk. I'm not responsible if your equipment explodes.
 
