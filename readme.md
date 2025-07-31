@@ -1,5 +1,5 @@
 # MyEFI
-[![MacOS version](https://img.shields.io/badge/Sequoia-15.5-informational.svg)](https://www.apple.com/macos)
+[![MacOS version](https://img.shields.io/badge/Sequoia-15.6-informational.svg)](https://www.apple.com/macos)
 [![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)
 
 ![image](./imgs/neofetch.png)
@@ -21,7 +21,7 @@ python build.py
 OpenCore 1.0.5
 
 ## Currently Support macOS Version
-macOS Sequoia 15.5 x86_64
+macOS Sequoia 15.6 x86_64
 
 ## My Hardware Spec
 ```
