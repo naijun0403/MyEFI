@@ -429,7 +429,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.9</string>
+                    <string>V1.7.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1053,7 +1053,9 @@
         <key>Misc</key>
         <dict>
             <key>BlessOverride</key>
-            <array/>
+            <array>
+                <string>\EFI\fedora\grubx64.efi</string>
+            </array>
             <key>Boot</key>
             <dict>
                 <key>ConsoleAttributes</key>
@@ -1090,21 +1092,21 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <false/>
+                <true/>
                 <key>ApplePanic</key>
-                <false/>
+                <true/>
                 <key>DisableWatchDog</key>
                 <true/>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
-                <integer>0</integer>
+                <integer>2147483714</integer>
                 <key>LogModules</key>
                 <string></string>
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>0</integer>
+                <integer>67</integer>
             </dict>
             <key>Entries</key>
             <array/>
@@ -1201,7 +1203,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>agdpmod=pikera -wegnoigpu alcid=11 ipc_control_port_options=0</string>
+                    <string>agdpmod=pikera -wegnoigpu alcid=11 ipc_control_port_options=0 -v</string>
                     <key>csr-active-config</key>
                     <data>
                     AwoAAA==
@@ -1285,7 +1287,7 @@
             <key>APFS</key>
             <dict>
                 <key>EnableJumpstart</key>
-                <true/>
+                <false/>
                 <key>GlobalConnect</key>
                 <false/>
                 <key>HideVerbose</key>
@@ -1331,7 +1333,7 @@
                 <key>AudioCodec</key>
                 <integer>0</integer>
                 <key>AudioDevice</key>
-                <string></string>
+                <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
                 <key>AudioOutMask</key>
                 <integer>0</integer>
                 <key>AudioSupport</key>
@@ -1365,7 +1367,7 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>OpenHfsPlus.efi</string>
+                    <string>HfsPlus.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -1414,6 +1416,18 @@
                     <false/>
                     <key>Path</key>
                     <string>ToggleSipEntry.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string>To Fix FV2</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>apfs_aligned.efi</string>
                 </dict>
             </array>
             <key>Input</key>
