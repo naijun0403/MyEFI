@@ -1,8 +1,6 @@
 # MyEFI
-[![MacOS version](https://img.shields.io/badge/Sequoia-15.6-informational.svg)](https://www.apple.com/macos)
-[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)
-
-![image](./imgs/neofetch.png)
+[![MacOS version](https://img.shields.io/badge/Tahoe-26.1-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.6-informational.svg)](https://github.com/acidanthera/OpenCorePkg)
 
 ## Disclaimer
 Use at your own risk. I'm not responsible if your equipment explodes.
@@ -18,10 +16,10 @@ python build.py
 ```
 
 ## OpenCore Version
-OpenCore 1.0.5
+OpenCore 1.0.6
 
 ## Currently Support macOS Version
-macOS Sequoia 15.6 x86_64
+macOS Tahoe 26.1 x86_64
 
 ## My Hardware Spec
 ```
