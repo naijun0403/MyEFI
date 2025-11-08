@@ -986,7 +986,7 @@
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Find</key>
                     <data>QYuGlAEAAA==</data>
                     <key>Identifier</key>
