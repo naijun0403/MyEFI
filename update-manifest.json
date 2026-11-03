@@ -704,5 +704,87 @@
     "long_session_stability_tested": false,
     "user_confirmed_working": true,
     "capture_output_confirmed_by_user": true
+  },
+  "configuration_fixes": [
+    {
+      "path": "NVRAM/Delete/4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102",
+      "before": "sbvmm,cpuname,pci",
+      "after": "revpatch",
+      "reason": "Delete entries name NVRAM variables; the RestrictEvents patch value remains sbvmm,cpuname,pci."
+    }
+  ],
+  "boot_display_audit": {
+    "symptom_confirmed_by_user": "macOS finishes booting but both monitors report No Signal; restarting restores output; recurrence is random and predates this update",
+    "cause_confirmed": false,
+    "display_connections": "Two DisplayPort monitors at approximately 164 Hz and 165 Hz with 30-bit framebuffers",
+    "graphics_log_observation": "psp_hdcp_services: failed and Failed HDCP: status 4 occur during working sessions as well, so they are not sufficient to identify the failed-boot cause",
+    "usb_map": {
+      "controller": "XHCI",
+      "declared_logical_ports": 25,
+      "live_port_names": [
+        "HS01",
+        "HS02",
+        "HS03",
+        "HS04",
+        "HS05",
+        "HS06",
+        "HS07",
+        "HS08",
+        "HS09",
+        "HS10",
+        "HS11",
+        "HS12",
+        "HS13",
+        "HS14",
+        "HS15"
+      ],
+      "declared_superspeed_ports": [
+        "SS01",
+        "SS02",
+        "SS03",
+        "SS04",
+        "SS05",
+        "SS06",
+        "SS07",
+        "SS08",
+        "SS09"
+      ],
+      "live_superspeed_ports": 0,
+      "xhci_port_limit_quirk": false,
+      "physical_port_remapping_required": true,
+      "evidence_of_causation_for_display_failure": false
+    },
+    "elimination_test": {
+      "changes": [
+        "RadeonSensor.kext Enabled=false",
+        "SMCRadeonGPU.kext Enabled=false"
+      ],
+      "purpose": "Exclude the optional GPU temperature-monitoring pair while preserving graphics acceleration",
+      "prepared_as_local_ignored_efi_copy": true,
+      "boot_tested": false
+    },
+    "recommended_first_tests": [
+      "Monitor power-cycle or DisplayPort reconnect before computer restart",
+      "Several boots with one monitor at 60 Hz and Adaptive Sync/HDR disabled if enabled",
+      "Optional USB EFI with the GPU sensor pair disabled"
+    ],
+    "power_configuration_to_review": {
+      "hibernatemode": 3,
+      "standby": 1,
+      "opencore_hibernate_mode": "Auto",
+      "changed_during_audit": false
+    },
+    "further_review": [
+      "Audio layout-id 16 vs alcid=11",
+      "Unused enabled Ethernet drivers",
+      "Runtime memory quirks after verifying firmware MAT support in a DEBUG log"
+    ],
+    "sources": [
+      "https://github.com/acidanthera/WhateverGreen/blob/1.7.1/Manual/FAQ.Radeon.en.md",
+      "https://github.com/USBToolBox/kext/tree/1.2.0",
+      "https://dortania.github.io/OpenCore-Post-Install/usb/",
+      "https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html",
+      "https://github.com/acidanthera/OpenCorePkg/blob/1.0.8/Docs/Configuration.tex"
+    ]
   }
 }

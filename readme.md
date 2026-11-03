@@ -154,3 +154,55 @@ replacing the boot drive's EFI. A subsequent running-system check confirmed that
 the updated Lilu 1.7.2, official WhateverGreen 1.7.1, AirportBrcmFixup 2.2.1, and
 AppleIGC 1.9d2 are loaded on Sequoia 15.8.2. Intermittent boot-time display loss
 predates this update and remains under investigation.
+
+## Intermittent boot-time display loss (2026-11-04)
+
+The reported failure occurs after macOS finishes booting: both monitors show
+**No Signal**, and restarting restores output. Its cause is not yet confirmed.
+The working system currently uses two DisplayPort displays, a 2560x1440 Odyssey
+G52A at approximately 164 Hz and a 1920x1080 P27FBB-RGGL at 165 Hz, both with
+30-bit framebuffers. A 30-bit framebuffer does not establish the physical link's
+bit depth or prove that HDR is enabled.
+
+Kernel logs contain repeated `psp_hdcp_services: failed` / `Failed HDCP: status 4`
+messages. They also occur during working sessions, so they do not establish the
+cause of the blank boots. The available OpenCore logs end at
+`EXITBS:START`, when control passes to macOS; that endpoint alone is not evidence
+of a bootloader hang.
+
+Start with tests that distinguish display-link negotiation from GPU startup:
+
+1. At the next failure, power-cycle a monitor or reconnect its DisplayPort cable
+   before restarting the computer. Recovery without a computer restart would
+   support a link/hot-plug problem. Record whether both outputs recover.
+2. Test several boots with one monitor at 60 Hz, temporarily disabling Adaptive
+   Sync/FreeSync and HDR if enabled. Restore one setting at a time to identify
+   whether the failure depends on dual displays or the selected display mode.
+3. An additional elimination test is to disable `RadeonSensor.kext` and
+   `SMCRadeonGPU.kext` together on a separate USB EFI. This removes the optional
+   GPU temperature-monitoring pair while retaining Lilu, WhateverGreen, VirtualSMC,
+   and graphics acceleration. This test is not a confirmed fix.
+
+The Radeon [connector-priority documentation](https://github.com/acidanthera/WhateverGreen/blob/1.7.1/Manual/FAQ.Radeon.en.md)
+describes a possible multi-monitor remedy, but its sense IDs must come from this
+card's connector data; PCI paths and connector IDs should not be guessed.
+
+## Remaining configuration improvements
+
+| Priority | Finding | Action |
+| --- | --- | --- |
+| High | UTBMap declares 25 logical ports on one XHCI controller. The running controller exposes only HS01-HS15; none of SS01-SS09 is instantiated. | Remap the physical USB ports and retain at most 15 logical ports on that controller, including the required internal Bluetooth port. |
+| Fixed | NVRAM/Delete contained the patch value `sbvmm,cpuname,pci` instead of the variable name `revpatch`. | Replace the deletion key with `revpatch`, preserving the configured patch value. |
+| Conditional | `hibernatemode=3`, `standby=1`, and OpenCore `HibernateMode=Auto` are enabled. | If failures correlate with sleep/hibernate, test an S3-only setup following the sleep guide; the power preferences have not been changed during this audit. |
+| Cleanup | Audio `DeviceProperties/layout-id=16` and `alcid=11` disagree; several Ethernet drivers are enabled while AppleIGC is the attached driver. | Confirm the intended audio layout and installed network cards before simplifying these entries. |
+| Firmware review | `EnableWriteUnprotector`, `RebuildAppleMemoryMap`, and `SyncRuntimePermissions` are all enabled. | Obtain a DEBUG boot log showing MAT support before revising runtime-memory quirks. |
+
+For USB remapping, count a USB 3 connector's USB 2 and USB 3 companions separately.
+The `port-count` property describes the highest port number; merely changing it
+to 15 is not a port map. Preserve the physically identified ports needed for
+keyboard, mouse, boot media, and internal Bluetooth. USBToolBox explicitly
+[does not patch the port limit](https://github.com/USBToolBox/kext/tree/1.2.0).
+See the [USB mapping guide](https://dortania.github.io/OpenCore-Post-Install/usb/)
+and [sleep guide](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html).
+The USB map issue needs correction independently of the display diagnosis;
+there is no evidence yet that it causes the blank screens.
