@@ -1,0 +1,708 @@
+{
+  "reviewed_on": "2026-11-04",
+  "opencore_version": "1.0.8",
+  "opencore_build": "RELEASE",
+  "policy": "Use latest published stable upstream releases where suitable; preserve machine-specific data and OS-specific builds that have no compatible newer stable replacement.",
+  "archive_verification": "Release archive checksums were compared with GitHub asset digests when published. OCLP and OcBinaryData payloads were checked against Git blob identifiers where available.",
+  "bundle_tree_sha256_algorithm": "SHA-256 over files sorted by relative POSIX path, appending UTF-8 relative path, one NUL byte, and the 32-byte SHA-256 digest of file content for each file. File modes are excluded.",
+  "packages": [
+    {
+      "repository": "acidanthera/AirportBrcmFixup",
+      "release": "2.2.1",
+      "asset": "AirportBrcmFixup-2.2.1-RELEASE.zip",
+      "url": "https://github.com/acidanthera/AirportBrcmFixup/releases/download/2.2.1/AirportBrcmFixup-2.2.1-RELEASE.zip",
+      "archive_sha256": "2432c8a62445ad2cdadcc59b73928f01f8bf42bcd3f4386e49bc63a1c91db06f",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "acidanthera/AppleALC",
+      "release": "1.9.8",
+      "asset": "AppleALC-1.9.8-RELEASE.zip",
+      "url": "https://github.com/acidanthera/AppleALC/releases/download/1.9.8/AppleALC-1.9.8-RELEASE.zip",
+      "archive_sha256": "d4d36cd2da7863cf7cbfcb0892d45c08457f4f4ddd065a073dd010e46bd63bcb",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "SongXiaoXi/AppleIGC",
+      "release": "v1.9",
+      "asset": "AppleIGC.kext.zip",
+      "url": "https://github.com/SongXiaoXi/AppleIGC/releases/download/v1.9/AppleIGC.kext.zip",
+      "archive_sha256": "3398c5cf609b26be9485445c4f10fe2ef2c43554db1c25f406d8bc955c399466",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "Mieze/AtherosE2200Ethernet",
+      "release": "v2.4.0",
+      "asset": "AtherosE2200Ethernet-V2.4.0.zip",
+      "url": "https://github.com/Mieze/AtherosE2200Ethernet/releases/download/v2.4.0/AtherosE2200Ethernet-V2.4.0.zip",
+      "archive_sha256": "4702edfcda5cc1b9c7e2ec1278130bb02c5c5a42c77f39b525fa5ac1ca900bfb",
+      "verification": "Downloaded from upstream release; no GitHub-provided digest was available"
+    },
+    {
+      "repository": "acidanthera/BrcmPatchRAM",
+      "release": "2.7.2",
+      "asset": "BrcmPatchRAM-2.7.2-RELEASE.zip",
+      "url": "https://github.com/acidanthera/BrcmPatchRAM/releases/download/2.7.2/BrcmPatchRAM-2.7.2-RELEASE.zip",
+      "archive_sha256": "e1c1c55347526d031a8ae2fdd1f52efa3019161e497fb38e1cfa809752f8af21",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "acidanthera/Lilu",
+      "release": "1.7.2",
+      "asset": "Lilu-1.7.2-RELEASE.zip",
+      "url": "https://github.com/acidanthera/Lilu/releases/download/1.7.2/Lilu-1.7.2-RELEASE.zip",
+      "archive_sha256": "53967d7dcfaab01023a33df2e969a89522f13d6654a6a56ac4711b62dabf3ab8",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "Mieze/LucyRTL8125Ethernet",
+      "release": "v1.2.4",
+      "asset": "LucyRTL8125Ethernet-V1.2.4.zip",
+      "url": "https://github.com/Mieze/LucyRTL8125Ethernet/releases/download/v1.2.4/LucyRTL8125Ethernet-V1.2.4.zip",
+      "archive_sha256": "a4e24a0246fff0bc059be4b832b7e4c800261364868632df2f38a2bf998e3956",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "acidanthera/OpenCorePkg",
+      "release": "1.0.8",
+      "asset": "OpenCore-1.0.8-RELEASE.zip",
+      "url": "https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.8/OpenCore-1.0.8-RELEASE.zip",
+      "archive_sha256": "2011e8b7216ecb2645d97ea710df965947edd406846e92050b9bc4190be6d27b",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "Mieze/RTL8111_driver_for_OS_X",
+      "release": "v3.0.0",
+      "asset": "RealtekRTL8111-V3.0.0.zip",
+      "url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/releases/download/v3.0.0/RealtekRTL8111-V3.0.0.zip",
+      "archive_sha256": "a0f2e64ac3c76e2d416ff88f35a197ce229e74ea78e968631a736a43b4d8231c",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "ChefKissInc/SMCRadeonSensors",
+      "release": "2.4.0",
+      "asset": "SMCRadeonSensors-2.4.0-RELEASE.zip",
+      "url": "https://github.com/ChefKissInc/SMCRadeonSensors/releases/download/2.4.0/SMCRadeonSensors-2.4.0-RELEASE.zip",
+      "archive_sha256": "9a6fd44185b2f51f0c91981c28dd4372a53fef64164dd1e4790c42cf39a97da0",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "acidanthera/VirtualSMC",
+      "release": "1.3.8",
+      "asset": "VirtualSMC-1.3.8-RELEASE.zip",
+      "url": "https://github.com/acidanthera/VirtualSMC/releases/download/1.3.8/VirtualSMC-1.3.8-RELEASE.zip",
+      "archive_sha256": "2e29a8aaf91b4eb0bcdf5913ed17e70f5cf76531122acd4132eff7813a54de8b",
+      "verification": "GitHub release SHA-256 digest matched"
+    },
+    {
+      "repository": "acidanthera/WhateverGreen",
+      "release": "1.7.1",
+      "asset": "WhateverGreen-1.7.1-RELEASE.zip",
+      "url": "https://github.com/acidanthera/WhateverGreen/releases/download/1.7.1/WhateverGreen-1.7.1-RELEASE.zip",
+      "archive_sha256": "1bfdd2d40290ecce237606db121cbc01d7041179f03394bd59660a2ed52e5c95",
+      "verification": "GitHub release SHA-256 digest matched"
+    }
+  ],
+  "opencore_files": [
+    {
+      "path": "EFI/BOOT/BOOTx64.efi",
+      "sha256": "d0163dfbe5d2ea46aececd7d7349acfa5b75dfed2993e8489816f3dda71914c8"
+    },
+    {
+      "path": "EFI/OC/OpenCore.efi",
+      "sha256": "9ef21f9d846a992c030fa5858736a6d9efa70a3b4ad88b8d747338bb457b14d4"
+    },
+    {
+      "path": "EFI/OC/Drivers/OpenCanopy.efi",
+      "sha256": "a92af4a7f6bbafb30abe0605a02d8746cafd7aa3006cf5fbc0b0ee9e795da879"
+    },
+    {
+      "path": "EFI/OC/Drivers/OpenLinuxBoot.efi",
+      "sha256": "41427ae9f78dbd53dcfbf9021d77f4675092c5774bffd533a46928d73ddf3adb"
+    },
+    {
+      "path": "EFI/OC/Drivers/OpenRuntime.efi",
+      "sha256": "c67be56660047237360df5eb7f080a2b13129d68e829bee9ad0230e45d516be8"
+    },
+    {
+      "path": "EFI/OC/Drivers/ResetNvramEntry.efi",
+      "sha256": "3c34cd3a6cdfbbaf9c548c59058e9537dbd527f8e9b82261153386e49329879d"
+    },
+    {
+      "path": "EFI/OC/Drivers/ToggleSipEntry.efi",
+      "sha256": "536bab9ce9fc92c95ea774a48871317fa2adb9ea35f81f183765a5e895818f7a"
+    },
+    {
+      "path": "EFI/OC/Tools/BootKicker.efi",
+      "sha256": "6bdd8fcc6dec26144e85f223abda608c70d3f8896ace1059fe3c44917238373d"
+    },
+    {
+      "path": "EFI/OC/Tools/ChipTune.efi",
+      "sha256": "6f126267c459124c22dcb5d2c42cd3c30703f606a784c5323e43aafdc5fd3f6b"
+    },
+    {
+      "path": "EFI/OC/Tools/CleanNvram.efi",
+      "sha256": "2d1a18b99d3c3effaa83457cfa5ccfdf3cdf205b2b989db7a2daefd2218869b6"
+    },
+    {
+      "path": "EFI/OC/Tools/ControlMsrE2.efi",
+      "sha256": "2758dbb3f101548f91a50268f59033f1804e6c01d628a1dde3475f8f9941d6f5"
+    },
+    {
+      "path": "EFI/OC/Tools/CsrUtil.efi",
+      "sha256": "34f0a75e01ecffe1b1e25171b0a40543044380915d44a49a5eda331260c50f02"
+    },
+    {
+      "path": "EFI/OC/Tools/FontTester.efi",
+      "sha256": "159fef165cb2ff6a3afbebcf00c1589a3e737a6b9e09f83622b73c97f713b61f"
+    },
+    {
+      "path": "EFI/OC/Tools/GopStop.efi",
+      "sha256": "7ebe2af896b7209ed5338d82fad7236f04f8afbf4d68287a7efea4a992654108"
+    },
+    {
+      "path": "EFI/OC/Tools/KeyTester.efi",
+      "sha256": "3baac2c8923a8f268fe23ef4acbab29ec5119fdd2e76c333bcd8854b823f67f3"
+    },
+    {
+      "path": "EFI/OC/Tools/ListPartitions.efi",
+      "sha256": "c42d4691a5b0cba3999a0516cd299537cd1808778c63a1dc713380fa21e5e7ce"
+    },
+    {
+      "path": "EFI/OC/Tools/MmapDump.efi",
+      "sha256": "c2c9c6c81c841cc074fc66cbd6cc29ba6682419e37c54bedde5127e51f97dead"
+    },
+    {
+      "path": "EFI/OC/Tools/OpenControl.efi",
+      "sha256": "4038ee3d771fffcafa2a742da5d57dc2c4cbaf3fa8add69f38d964f7d8161d12"
+    },
+    {
+      "path": "EFI/OC/Tools/OpenShell.efi",
+      "sha256": "15c3b2a0cffecf8865525daa1b590d2605a6c8e093f93019608e750d37db3791"
+    },
+    {
+      "path": "EFI/OC/Tools/ResetSystem.efi",
+      "sha256": "a6dd3ca034b57ede087d69f888301e3a2c7cd03043bc3cbf5607e2b0195c7af3"
+    },
+    {
+      "path": "EFI/OC/Tools/RtcRw.efi",
+      "sha256": "42c45d54c19e3693f6dcdd49b2c4350e6e58ba1c701fdb991a3b22003c39b78b"
+    },
+    {
+      "path": "EFI/OC/Tools/TpmInfo.efi",
+      "sha256": "364d36f8fa0c322a92ca840f9d29d1f10adb67b3bf2251df321c38a75d7b57a6"
+    }
+  ],
+  "ocbinarydata_revision": "640e7e9240938f2529e725351e1e1150dc3569db",
+  "ocbinarydata_files": [
+    {
+      "path": "EFI/OC/Resources/Image/Acidanthera/Chardonnay/OpticalDrive.icns",
+      "status": "added",
+      "url": "https://raw.githubusercontent.com/acidanthera/OcBinaryData/640e7e9240938f2529e725351e1e1150dc3569db/Resources/Image/Acidanthera/Chardonnay/OpticalDrive.icns",
+      "sha256": "59d63a065ee52d8b61b4c7ef742c566853454c5dd69d116e0a1daec473e307da",
+      "verification": "Downloaded from pinned upstream commit"
+    },
+    {
+      "path": "EFI/OC/Resources/Image/Acidanthera/GoldenGate/OpticalDrive.icns",
+      "status": "added",
+      "url": "https://raw.githubusercontent.com/acidanthera/OcBinaryData/640e7e9240938f2529e725351e1e1150dc3569db/Resources/Image/Acidanthera/GoldenGate/OpticalDrive.icns",
+      "sha256": "680cadd001ecde81a229efa4010993fa24a1e750c69a7e8b89864aeafda4edea",
+      "verification": "Downloaded from pinned upstream commit"
+    },
+    {
+      "path": "EFI/OC/Drivers/HfsPlus.efi",
+      "status": "retained",
+      "url": "https://raw.githubusercontent.com/acidanthera/OcBinaryData/640e7e9240938f2529e725351e1e1150dc3569db/Drivers/HfsPlus.efi",
+      "sha256": "a55b5fff36578864ba6792c4c6369c71f6f35b61dd5a853ddf8583cd36c31d8f",
+      "verification": "Git blob SHA-1 matched"
+    },
+    {
+      "path": "EFI/OC/Resources/Image/Acidanthera/Syrah/OpticalDrive.icns",
+      "status": "added",
+      "url": "https://raw.githubusercontent.com/acidanthera/OcBinaryData/640e7e9240938f2529e725351e1e1150dc3569db/Resources/Image/Acidanthera/Syrah/OpticalDrive.icns",
+      "sha256": "32a435793d55109f60b6183eba017eac98ba95a035f94cc6aa6ff7c7b3f0695a",
+      "verification": "Downloaded from pinned upstream commit"
+    },
+    {
+      "path": "EFI/OC/Drivers/apfs_aligned.efi",
+      "status": "retained",
+      "url": "https://raw.githubusercontent.com/acidanthera/OcBinaryData/640e7e9240938f2529e725351e1e1150dc3569db/Drivers/apfs_aligned.efi",
+      "sha256": "1663fa54103cf808b45fda3f0385626d1f1899a9ed8258d21a827db4426ed408",
+      "verification": "Git blob SHA-1 matched"
+    },
+    {
+      "path": "EFI/OC/Drivers/ext4_x64.efi",
+      "status": "retained",
+      "url": "https://raw.githubusercontent.com/acidanthera/OcBinaryData/640e7e9240938f2529e725351e1e1150dc3569db/Drivers/ext4_x64.efi",
+      "sha256": "1e0d1597f162593f2e12b07724cc3979ac9496dae7504234b3165cd10021f27f",
+      "verification": "Git blob SHA-1 matched"
+    }
+  ],
+  "kexts": [
+    {
+      "bundle": "AMFIPass.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "com.dhinakg.AMFIPass",
+      "short_version": "1.4.1",
+      "bundle_version": "1.4.1",
+      "previous_bundle_version": "1.4.1",
+      "bundle_tree_sha256": "bc9d025d0ba9fe49378159d20bc3c8111070d56998c78e45647d04bf6dde1d1d",
+      "reason": "Already byte-identical to the AMFIPass 1.4.1 payload in OCLP 2.5.1 and current upstream main.",
+      "verified_payload_url": "https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/2.5.1/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip",
+      "verified_payload_archive_sha256": "07b266145906db41f4b13a7938fbb173ea28888cc1fa65f84417f8820adc961e"
+    },
+    {
+      "bundle": "AirportBrcmFixup.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "as.lvs1974.AirportBrcmFixup",
+      "short_version": "2.2.1",
+      "bundle_version": "2.2.1",
+      "previous_bundle_version": "2.2.0",
+      "bundle_tree_sha256": "8f9f9028e728e7987e72be650cdec3350ee09ee1708865021ab3fb5683912dd0",
+      "upstream_repository": "acidanthera/AirportBrcmFixup",
+      "latest_stable_release": "2.2.1",
+      "release_url": "https://github.com/acidanthera/AirportBrcmFixup/releases/tag/2.2.1"
+    },
+    {
+      "bundle": "AirportItlwm_Sequoia.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "com.zxystd.AirportItlwm",
+      "short_version": "2.3.0",
+      "bundle_version": "2.3.0",
+      "previous_bundle_version": "2.3.0",
+      "bundle_tree_sha256": "feeea291af41a24f4d46f3d7b1ad962591d568f777bdd560bf47708f01221a49",
+      "reason": "Existing OS-specific build retained. Upstream v2.3.0 stable AirportItlwm binaries target Sonoma or earlier; they are not Sequoia replacements.",
+      "upstream_repository": "OpenIntelWireless/itlwm",
+      "latest_stable_release": "v2.3.0",
+      "release_url": "https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.3.0"
+    },
+    {
+      "bundle": "AppleALC.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "as.vit9696.AppleALC",
+      "short_version": "1.9.8",
+      "bundle_version": "1.9.8",
+      "previous_bundle_version": "1.9.6",
+      "bundle_tree_sha256": "dae2359dc51d189f85e87f7e27dcdfe488554f127844b07a6b4572d21e736426",
+      "upstream_repository": "acidanthera/AppleALC",
+      "latest_stable_release": "1.9.8",
+      "release_url": "https://github.com/acidanthera/AppleALC/releases/tag/1.9.8"
+    },
+    {
+      "bundle": "AppleIGC.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "com.sxx.AppleIGC",
+      "short_version": "1.9",
+      "bundle_version": "1.9d2",
+      "previous_bundle_version": "1.5d1",
+      "bundle_tree_sha256": "10ac68cc33f7bcad602b723fe2490bd34025f14146f3466b2af66c11d0aaedfe",
+      "upstream_repository": "SongXiaoXi/AppleIGC",
+      "latest_stable_release": "v1.9",
+      "release_url": "https://github.com/SongXiaoXi/AppleIGC/releases/tag/v1.9"
+    },
+    {
+      "bundle": "AppleMCEReporterDisabler.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "org.xlnc.disabler.MCEReporter",
+      "short_version": null,
+      "bundle_version": "1.2",
+      "previous_bundle_version": "1.2",
+      "bundle_tree_sha256": "d23531af7c3327d2c356aa66e866745878c66ad79bd783010ddde39414ced59d",
+      "reason": "Existing codeless 1.2 compatibility injector retained."
+    },
+    {
+      "bundle": "AtherosE2200Ethernet.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "com.insanelymac.AtherosE2200Ethernet",
+      "short_version": "2.4.0",
+      "bundle_version": "2.4.0",
+      "previous_bundle_version": "2.2.2",
+      "bundle_tree_sha256": "41b08b8c024bba6971dfd9960cbc3a483073f7aa7f50e9ffb830979344f85eb4",
+      "upstream_repository": "Mieze/AtherosE2200Ethernet",
+      "latest_stable_release": "v2.4.0",
+      "release_url": "https://github.com/Mieze/AtherosE2200Ethernet/releases/tag/v2.4.0"
+    },
+    {
+      "bundle": "BlueToolFixup.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "as.acidanthera.BlueToolFixup",
+      "short_version": "2.7.2",
+      "bundle_version": "2.7.2",
+      "previous_bundle_version": "2.7.1",
+      "bundle_tree_sha256": "701be14a9599987cfbd8197ac47866b4f7d92f09fe60058b6071a518f4b5ab18",
+      "upstream_repository": "acidanthera/BrcmPatchRAM",
+      "latest_stable_release": "2.7.2",
+      "release_url": "https://github.com/acidanthera/BrcmPatchRAM/releases/tag/2.7.2"
+    },
+    {
+      "bundle": "CPUFriend.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "org.acidanthera.driver.CPUFriend",
+      "short_version": "1.3.0",
+      "bundle_version": "1.3.0",
+      "previous_bundle_version": "1.3.0",
+      "bundle_tree_sha256": "0710a64f2a60de9696c03fde24a0fede94ac74e8ef5743bda558168768c06a0a",
+      "upstream_repository": "acidanthera/CPUFriend",
+      "latest_stable_release": "1.3.0",
+      "release_url": "https://github.com/acidanthera/CPUFriend/releases/tag/1.3.0",
+      "reason": "Already matches the latest upstream stable release version."
+    },
+    {
+      "bundle": "CPUFriendDataProvider.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "org.vanilla.driver.CPUFriendDataProvider",
+      "short_version": "1.0.0",
+      "bundle_version": "1.0.0",
+      "previous_bundle_version": "1.0.0",
+      "bundle_tree_sha256": "8e7e1e839139225cea4ed1ed39c9565e1aa00c40dd5ab622b30e50393b7e2cf1",
+      "reason": "Machine-specific CPU power-management data; preserved."
+    },
+    {
+      "bundle": "CpuTopologyRebuild.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "org.b00t0x.CpuTopologyRebuild",
+      "short_version": "2.0.2",
+      "bundle_version": "2.0.2",
+      "previous_bundle_version": "2.0.2",
+      "bundle_tree_sha256": "5aad856a37ecc8e85baf06e2a993547eb8f06022019954454b8b405314e66b34",
+      "upstream_repository": "b00t0x/CpuTopologyRebuild",
+      "latest_stable_release": "2.0.2",
+      "release_url": "https://github.com/b00t0x/CpuTopologyRebuild/releases/tag/2.0.2",
+      "reason": "Already matches the latest upstream stable release version."
+    },
+    {
+      "bundle": "IO80211FamilyLegacy.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "com.apple.iokit.IO80211FamilyLegacy",
+      "short_version": "12.0",
+      "bundle_version": "1200.12.2b1",
+      "previous_bundle_version": "1200.12.2b1",
+      "bundle_tree_sha256": "b98ab01c70a76f631d90e85696c4a276f3d4f548539fb17ab4de9be42fefe67a",
+      "reason": "Already byte-identical to the OCLP 2.5.1 v1.0.0 distribution, including AirPortBrcmNIC.",
+      "verified_payload_url": "https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/2.5.1/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip",
+      "verified_payload_archive_sha256": "e681dcc76a2cd2cea4b0ad5f27a3c816055fde3cdccd890dd10a3e2c84e96d93"
+    },
+    {
+      "bundle": "IOSkywalkFamily.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "com.apple.iokit.IOSkywalkFamily",
+      "short_version": "1.0",
+      "bundle_version": "1.0",
+      "previous_bundle_version": "1.0",
+      "bundle_tree_sha256": "8cde6fab3cdf1755ba5cd950fa976e34f9ab5e395c6565d18bccd88d3a70be5b",
+      "reason": "Already byte-identical to the OCLP 2.5.1 v1.2.0 distribution, whose internal bundle version is 1.0.",
+      "verified_payload_url": "https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/2.5.1/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip",
+      "verified_payload_archive_sha256": "1e12b7ef42f55b39ea54ada97b46331220668b2c48a28656e9875c5145fe2479"
+    },
+    {
+      "bundle": "IntelBTPatcher.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "com.zxystd.IntelBTPatcher",
+      "short_version": "2.5.0",
+      "bundle_version": "2.5.0",
+      "previous_bundle_version": "2.5.0",
+      "bundle_tree_sha256": "d8dfcb634e77576ad78d176285e94895c0983ca7bc8407c70053fe62e9666f16",
+      "reason": "Existing 2.5.0 build retained with IntelBluetoothFirmware; latest upstream stable release is v2.4.0.",
+      "upstream_repository": "OpenIntelWireless/IntelBluetoothFirmware",
+      "latest_stable_release": "v2.4.0",
+      "release_url": "https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases/tag/v2.4.0"
+    },
+    {
+      "bundle": "IntelBluetoothFirmware.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "com.zxystd.IntelBluetoothFirmware",
+      "short_version": "2.5.0",
+      "bundle_version": "2.5.0",
+      "previous_bundle_version": "2.5.0",
+      "bundle_tree_sha256": "99de74955b82b307de4dfc6b4805db1eb721c482aaeda5353e4234f278c01f70",
+      "reason": "Existing 2.5.0 build retained; latest upstream stable release is v2.4.0. Avoid a downgrade.",
+      "upstream_repository": "OpenIntelWireless/IntelBluetoothFirmware",
+      "latest_stable_release": "v2.4.0",
+      "release_url": "https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases/tag/v2.4.0"
+    },
+    {
+      "bundle": "IntelMausi.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "as.acidanthera.mieze.IntelMausi",
+      "short_version": "1.0.8",
+      "bundle_version": "1.0.8",
+      "previous_bundle_version": "1.0.8",
+      "bundle_tree_sha256": "b00d6089db08cbde5aa8fed05be952a4fb99dfffa911b8c95b97a096f8956ba5",
+      "upstream_repository": "acidanthera/IntelMausi",
+      "latest_stable_release": "1.0.8",
+      "release_url": "https://github.com/acidanthera/IntelMausi/releases/tag/1.0.8",
+      "reason": "Already matches the latest upstream stable release version."
+    },
+    {
+      "bundle": "Lilu.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "as.vit9696.Lilu",
+      "short_version": "1.7.2",
+      "bundle_version": "1.7.2",
+      "previous_bundle_version": "1.7.1",
+      "bundle_tree_sha256": "56d29761d972b16b040677d5cab0cf141d0585307cb4887adead0a0b8277941b",
+      "upstream_repository": "acidanthera/Lilu",
+      "latest_stable_release": "1.7.2",
+      "release_url": "https://github.com/acidanthera/Lilu/releases/tag/1.7.2"
+    },
+    {
+      "bundle": "LucyRTL8125Ethernet.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "com.insanelymac.LucyRTL8125Ethernet",
+      "short_version": "1.2.4",
+      "bundle_version": "1.2.400",
+      "previous_bundle_version": "1.2.2",
+      "bundle_tree_sha256": "df46ca29cf275d4c8d4a994a996858dff8a14287d00b2909536e6db08ae365a5",
+      "upstream_repository": "Mieze/LucyRTL8125Ethernet",
+      "latest_stable_release": "v1.2.4",
+      "release_url": "https://github.com/Mieze/LucyRTL8125Ethernet/releases/tag/v1.2.4"
+    },
+    {
+      "bundle": "NVMeFix.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "org.acidanthera.NVMeFix",
+      "short_version": "1.1.3",
+      "bundle_version": "1.1.3",
+      "previous_bundle_version": "1.1.3",
+      "bundle_tree_sha256": "e2573546dc730346f28e7204d18791927cb9f6af34c5abcb082604e468d4aa18",
+      "upstream_repository": "acidanthera/NVMeFix",
+      "latest_stable_release": "1.1.3",
+      "release_url": "https://github.com/acidanthera/NVMeFix/releases/tag/1.1.3",
+      "reason": "Already matches the latest upstream stable release version."
+    },
+    {
+      "bundle": "RadeonSensor.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "aluveitie.RadeonSensor",
+      "short_version": "0.3.3",
+      "bundle_version": "0.3.3",
+      "previous_bundle_version": "0.3.3",
+      "bundle_tree_sha256": "3daf7e19d68b59fcd10ba2586dbd9dd8a4abe10c9f17fece221fefd890f89339",
+      "upstream_repository": "aluveitie/RadeonSensor",
+      "latest_stable_release": "0.3.3",
+      "release_url": "https://github.com/aluveitie/RadeonSensor/releases/tag/0.3.3",
+      "reason": "Already matches the latest upstream stable release version."
+    },
+    {
+      "bundle": "RealtekRTL8111.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "com.insanelymac.RealtekRTL8111",
+      "short_version": "3.0.0",
+      "bundle_version": "3.0.4",
+      "previous_bundle_version": "2.5.0",
+      "bundle_tree_sha256": "6c19c7798573992fb7c7b0e7143030958bca6eb9578485bba08b48ab8d95db02",
+      "upstream_repository": "Mieze/RTL8111_driver_for_OS_X",
+      "latest_stable_release": "v3.0.0",
+      "release_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/releases/tag/v3.0.0"
+    },
+    {
+      "bundle": "RestrictEvents.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "as.vit9696.RestrictEvents",
+      "short_version": "1.1.6",
+      "bundle_version": "1.1.6",
+      "previous_bundle_version": "1.1.6",
+      "bundle_tree_sha256": "289a53a5364c63b73badf3dbd337cedc7c0f77e87fa1d21bf07d9fdebb4fdf24",
+      "upstream_repository": "acidanthera/RestrictEvents",
+      "latest_stable_release": "1.1.6",
+      "release_url": "https://github.com/acidanthera/RestrictEvents/releases/tag/1.1.6",
+      "reason": "Already matches the latest upstream stable release version."
+    },
+    {
+      "bundle": "SMCProcessor.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "as.vit9696.SMCProcessor",
+      "short_version": "1.3.8",
+      "bundle_version": "1.3.8",
+      "previous_bundle_version": "1.3.7",
+      "bundle_tree_sha256": "200e6fc7084f08a0852734cc9cbc54138a8892990fa999771507b3e870e7faba",
+      "upstream_repository": "acidanthera/VirtualSMC",
+      "latest_stable_release": "1.3.8",
+      "release_url": "https://github.com/acidanthera/VirtualSMC/releases/tag/1.3.8"
+    },
+    {
+      "bundle": "SMCRadeonGPU.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "aluveitie.SMCRadeonGPU",
+      "short_version": "0.3.3",
+      "bundle_version": "0.3.3",
+      "previous_bundle_version": "0.3.3",
+      "bundle_tree_sha256": "bbf76310a30240397794b67eb81ff8e3a420ac35e8255e388dd7f7afbd75fe83",
+      "upstream_repository": "aluveitie/RadeonSensor",
+      "latest_stable_release": "0.3.3",
+      "release_url": "https://github.com/aluveitie/RadeonSensor/releases/tag/0.3.3",
+      "reason": "Already matches the latest upstream stable release version."
+    },
+    {
+      "bundle": "SMCRadeonSensors.kext",
+      "enabled": false,
+      "status": "updated",
+      "bundle_identifier": "org.ChefKiss.SMCRadeonSensors",
+      "short_version": "2.4.0",
+      "bundle_version": "2.4.0",
+      "previous_bundle_version": "2.3.0",
+      "bundle_tree_sha256": "64d14f6b42768a4fe2369b4f22462cc88c2b7357354e9c0af4a02892bd829ed8",
+      "upstream_repository": "ChefKissInc/SMCRadeonSensors",
+      "latest_stable_release": "2.4.0",
+      "release_url": "https://github.com/ChefKissInc/SMCRadeonSensors/releases/tag/2.4.0"
+    },
+    {
+      "bundle": "SMCSuperIO.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "ru.joedm.SMCSuperIO",
+      "short_version": "1.3.8",
+      "bundle_version": "1.3.8",
+      "previous_bundle_version": "1.3.7",
+      "bundle_tree_sha256": "5d25f28e0a331b3f48a4373b025980dc6f62eef263f32fbcd73b07f4d5552cf7",
+      "upstream_repository": "acidanthera/VirtualSMC",
+      "latest_stable_release": "1.3.8",
+      "release_url": "https://github.com/acidanthera/VirtualSMC/releases/tag/1.3.8"
+    },
+    {
+      "bundle": "USBToolBox.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "com.dhinakg.USBToolBox.kext",
+      "short_version": null,
+      "bundle_version": "1.2.0",
+      "previous_bundle_version": "1.2.0",
+      "bundle_tree_sha256": "b09b5ce02df6ee6834845cc70198e1a2eac8e1b2cef562edd2d60eb378c889de",
+      "upstream_repository": "USBToolBox/kext",
+      "latest_stable_release": "1.2.0",
+      "release_url": "https://github.com/USBToolBox/kext/releases/tag/1.2.0",
+      "reason": "Already matches the latest upstream stable release version."
+    },
+    {
+      "bundle": "USBXHCIFixup.kext",
+      "enabled": false,
+      "status": "retained",
+      "bundle_identifier": "cn.HeiPG.USBXHCI.Fixup",
+      "short_version": "1.0.0",
+      "bundle_version": "1.0.0",
+      "previous_bundle_version": "1.0.0",
+      "bundle_tree_sha256": "65224fd10657c25ebaf425721e227f37ff151b46c81e2f3ac7e1b3475d5067a8",
+      "reason": "Unreferenced legacy injector; preserved without enabling it or claiming an upstream update."
+    },
+    {
+      "bundle": "UTBMap.kext",
+      "enabled": true,
+      "status": "retained",
+      "bundle_identifier": "com.dhinakg.USBToolBox.map",
+      "short_version": "1.1",
+      "bundle_version": "1.1",
+      "previous_bundle_version": "1.1",
+      "bundle_tree_sha256": "92eb2583628900496e35daf18121eb70d3d579fe98acb4711fc004bb177c6683",
+      "reason": "Machine-specific USB mapping; preserved."
+    },
+    {
+      "bundle": "VirtualSMC.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "as.vit9696.VirtualSMC",
+      "short_version": "1.3.8",
+      "bundle_version": "1.3.8",
+      "previous_bundle_version": "1.3.7",
+      "bundle_tree_sha256": "25f979d8d43c98943d2ce4d3285f05ee4a045a8be86b1524c6651d7071bc0e25",
+      "upstream_repository": "acidanthera/VirtualSMC",
+      "latest_stable_release": "1.3.8",
+      "release_url": "https://github.com/acidanthera/VirtualSMC/releases/tag/1.3.8"
+    },
+    {
+      "bundle": "WhateverGreen.kext",
+      "enabled": true,
+      "status": "updated",
+      "bundle_identifier": "as.vit9696.WhateverGreen",
+      "short_version": "1.7.1",
+      "bundle_version": "1.7.1",
+      "previous_bundle_version": "1.7.1d7",
+      "bundle_tree_sha256": "c53129cbae3c3057a35305958fc9525f3a646de030c8acf3a7bce2f6b2604823",
+      "upstream_repository": "acidanthera/WhateverGreen",
+      "latest_stable_release": "1.7.1",
+      "release_url": "https://github.com/acidanthera/WhateverGreen/releases/tag/1.7.1"
+    },
+    {
+      "bundle": "XHCI-unsupported.kext",
+      "enabled": false,
+      "status": "retained",
+      "bundle_identifier": "org.rehabman.injector.XHCI.unsupported",
+      "short_version": "0.9.2",
+      "bundle_version": "0.9.2",
+      "previous_bundle_version": "0.9.2",
+      "bundle_tree_sha256": "1e773e2e68c8949cee64b243c151023f20a77252de6a7420e4099bf8f541b900",
+      "reason": "Unreferenced legacy injector; preserved without enabling it or claiming an upstream update."
+    }
+  ],
+  "validation": {
+    "ocvalidate_version": "1.0.8",
+    "ocvalidate_result": "No issues found after build.py substitution using synthetic identity values in an isolated temporary copy",
+    "all_plists_parse": true,
+    "configured_paths_exist": true,
+    "configured_kext_executables_include_x86_64": true,
+    "enabled_kext_dependency_order_valid": true,
+    "efi_pe_machine": "x86_64 (0x8664)",
+    "boot_tested": false,
+    "boot_partition_modified": false,
+    "running_system_check": {
+      "macos": "15.8.2 (24H232)",
+      "Lilu": "1.7.2",
+      "WhateverGreen": "1.7.1 official Acidanthera",
+      "AirportBrcmFixup": "2.2.1",
+      "AppleIGC": "1.9d2",
+      "intermittent_boot_display_issue": "User reports macOS completes boot but displays are sometimes blank; restarting restores output. Predates this update."
+    }
+  },
+  "obs_diagnosis": {
+    "observed_macos": "15.8.2 (24H232)",
+    "observed_obs": "33.0.1",
+    "symptom": "ScreenCaptureKit stream creation fails with CoreGraphics error 1003 / The stream is nil",
+    "likely_cause": "OBS 33 requests the Apple-Silicon-only 64RGBAHalf ScreenCaptureKit format on Intel macOS 15+",
+    "upstream_fix": "https://github.com/obsproject/obs-studio/pull/14124",
+    "fix_status_on_review_date": "Open; not yet merged",
+    "workaround_release": "https://github.com/obsproject/obs-studio/releases/tag/32.0.4",
+    "workaround_platform": "macOS Intel",
+    "workaround_installed_or_tested": true,
+    "installed_obs": "32.0.4",
+    "installed_qt": "6.8.3",
+    "installer_sha256": "7d610f5ab1c9d14290d827e449b2cc9ed99bb8b49a890d1cacf0611acebe44fa",
+    "installer_signature_verified": true,
+    "previous_app_and_settings_backed_up": true,
+    "followup_failure": {
+      "obs_version": "32.2.2",
+      "qt_version": "6.11.1",
+      "crash_report_count": 3,
+      "stack": "QWidget::setCursor -> QImage::toCGImage -> CGImageCreate -> CGColorSpaceGetType",
+      "upstream_qt_issue": "https://bugreports.qt.io/browse/QTBUG-147602",
+      "upstream_obs_issue": "https://github.com/obsproject/obs-studio/issues/14061"
+    },
+    "startup_and_existing_scene_loading_verified": true,
+    "capture_output_visually_verified": false,
+    "long_session_stability_tested": false,
+    "user_confirmed_working": true,
+    "capture_output_confirmed_by_user": true
+  }
+}
